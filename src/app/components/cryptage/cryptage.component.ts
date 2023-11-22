@@ -15,19 +15,23 @@ export class CryptageComponent {
   constructor(private cryptageService: CryptageService) {}
 
   process() {
-    this.response = this.cryptageService.crypt(this.origial)
+    if(this.origial.trim() !== ''){
+      this.response = this.cryptageService.crypt(this.origial)
+    }
   }
 
   copyToClipboard() {
-    const textarea = document.getElementById('response') as HTMLTextAreaElement;
-    
-    if (textarea) {
-      textarea.select();
-      document.execCommand('copy');
-      this.copySuccessMessage = 'Clé copiée dans le presse-papiers !';
-      setTimeout(() => {
-        this.copySuccessMessage = '';
-      }, 3000);
+    if(this.response.trim() !== ''){
+      const textarea = document.getElementById('response') as HTMLTextAreaElement;
+      
+      if (textarea) {
+        textarea.select();
+        document.execCommand('copy');
+        this.copySuccessMessage = 'Clé copiée dans le presse-papiers !';
+        setTimeout(() => {
+          this.copySuccessMessage = '';
+        }, 3000);
+      }
     }
   }
 }
