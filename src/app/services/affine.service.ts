@@ -10,7 +10,7 @@ export class AffineService {
   public encrypt(text: string, keyA: number, keyB: number): string {
     let result = '';
     if (this.gcd(keyA, this.ALPHABET_SIZE) !== 1) {
-       return result = 'Clé invalide. la valeur de a doit être premier avec 26.';
+       return result = 'Clé invalide. la coefficient a doit être premier avec 26.';
     }
 
     for (let i = 0; i < text.length; i++) {
@@ -34,7 +34,7 @@ export class AffineService {
   public decrypt(text: string, keyA: number, keyB: number): string {
     let result = '';
     if (this.gcd(keyA, this.ALPHABET_SIZE) !== 1) {
-      return result = 'Clé invalide. la valeur de a doit être premier avec 26.';
+      return result = 'Clé invalide. la coefficient a doit être premier avec 26.';
     }
 
     const modInverse = this.moduloInverse(keyA, this.ALPHABET_SIZE);
