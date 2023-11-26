@@ -1,26 +1,27 @@
 import { Component } from '@angular/core';
-import { CryptageService } from '../../services/cryptage.service';
+import { PolybeService } from 'src/app/services/polybe.service';
 
 @Component({
-  selector: 'app-decryptage',
-  templateUrl: './decryptage.component.html',
-  styleUrls: ['./decryptage.component.scss']
+  selector: 'app-decryptage-polybe',
+  templateUrl: './decryptage-polybe.component.html',
+  styleUrls: ['./decryptage-polybe.component.scss'],
 })
-export class DecryptageComponent {
+export class DecryptagePolybeComponent {
   crypte_key: string = '';
   response: string = '';
+  key!: string;
 
-  copySuccessMessage = ''
+  copySuccessMessage = '';
 
-  constructor(private cryptageService: CryptageService) {}
+  constructor(private cryptageService: PolybeService) {}
 
   process() {
-    this.response = this.cryptageService.decrypt(this.crypte_key)
+    this.response = this.cryptageService.decrypt(this.crypte_key, this.key);
   }
 
   copyToClipboard() {
     const textarea = document.getElementById('response') as HTMLTextAreaElement;
-    
+
     if (textarea) {
       textarea.select();
       document.execCommand('copy');

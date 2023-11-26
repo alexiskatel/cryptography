@@ -7,71 +7,89 @@
 
 body {
   font-family: "Montserrat", sans-serif !important;
-  background-color: rgb(251, 228, 198);
+  background-color: #E2EDF5;
 }
 
-.home {
+.pointer {
+  cursor: pointer;
+}
 
-  .min-100 {
-    min-height: 100vh;
+textarea, input {
+  box-shadow: none !important;
+  outline: 1px solid rgba(67, 78, 77, 0.554);
+
+  &:focus {
+    outline: 1px solid green;
+  }
+}
+
+.placeholder-none {
+  min-height: 8rem;
+}
+
+.process {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:hover {
+    outline: 1px solid green;
+    background-color: transparent !important;
+    color: black !important;
+  }
+}
+
+.result {
+  border-radius: 10px;
+  position: relative;
+
+  @media (max-width: 768px) {
+    padding: 2.5rem 0.5rem;
   }
 
-  .card-content {
-    border-radius: 15px;
-    min-height: 20rem;
-    position: relative;
-    overflow: hidden;
+  .copy {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+  }
+}
 
-    .content {
-      background-image: url("./assets/images/mur.jpg");
-      background-size: cover;
-      display: flex;
-      width: 5rem;
+.fs-6 {
+  font-size: 12px !important;
+}
+// .home {
+
+//   .min-100 {
+//     min-height: 100vh;
+//   }
+
+//   .card-content {
+//     border-radius: 15px;
+//     min-height: 20rem;
+//     position: relative;
+//     overflow: hidden;
+
+//     .content {
+//       background-image: url("./assets/images/mur.jpg");
+//       background-size: cover;
+//       display: flex;
+//       width: 5rem;
       
-    }
+//     }
+//   }
 
-    .process {
-      border-radius: 10px;
-      cursor: pointer;
-      transition: 0.5s;
+//   textarea {
+//     box-shadow: none !important;
+//     outline: 1px solid blue;
 
-      &:hover {
-        outline: 1px solid green;
-        background-color: transparent !important;
-        color: black !important;
-      }
-    }
+//     &:focus {
+//       outline: 1px solid green;
+//     }
+//   }
 
-    .result {
-      box-shadow: inset 0 0 10px 0 gray;
-      padding: 2.5rem 2rem;
-      border-radius: 10px;
-      position: relative;
-
-      @media (max-width: 768px) {
-        padding: 2.5rem 0.5rem;
-      }
-
-      .copy {
-        position: absolute;
-        right: 1rem;
-        top: 0.5rem;
-        cursor: pointer;
-      }
-    }
-  }
-
-  textarea {
-    box-shadow: none !important;
-    outline: 1px solid blue;
-
-    &:focus {
-      outline: 1px solid green;
-    }
-  }
-
-  .response {
-    border: none !important;
-    outline: none !important;
-  }
-}
+//   .response {
+//     border: none !important;
+//     outline: none !important;
+//   }
+// }

@@ -33,7 +33,7 @@ export class CryptageService {
         const nouvelIndex = (indexLettre + this.decalage) % 26;
         response += alphabetMinuscules[nouvelIndex];
       } else if (char === ' ') {
-        response += '_2%';
+        response += ' ';
       } else {
         response += char;
       }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CryptageService } from '../../services/cryptage.service';
+import { CryptageService } from '../../../services/cryptage.service';
 
 @Component({
   selector: 'app-cryptage',
@@ -7,7 +7,7 @@ import { CryptageService } from '../../services/cryptage.service';
   styleUrls: ['./cryptage.component.scss']
 })
 export class CryptageComponent {
-  origial: string = '';
+  original: string = '';
   response: string = '';
 
   copySuccessMessage = ''
@@ -15,8 +15,8 @@ export class CryptageComponent {
   constructor(private cryptageService: CryptageService) {}
 
   process() {
-    if(this.origial.trim() !== ''){
-      this.response = this.cryptageService.crypt(this.origial)
+    if(this.original.trim() !== ''){
+      this.response = this.cryptageService.crypt(this.original)
     }
   }
 

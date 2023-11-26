@@ -1,0 +1,23 @@
+<div class="sidebar">
+  <img src="../../../../assets/images/bg-sidebar-desktop.svg" alt="" />
+  <div class="content p-4">
+    <a
+      class="d-flex pointer mb-md-3 text-decoration-none"
+      [routerLink]="item.path"
+      *ngFor="let item of links; let key = index"
+      (click)="checkActiveTab(item.path)"
+    >
+      <div
+        class="circle d-flex justify-content-center text-white"
+        [ngClass]="{ active: active == key + 1 }"
+      >
+        <span class="align-self-center fs-5 fw-bold">{{ key + 1 }}</span>
+      </div>
+      <div class="align-self-center ms-2 fw-bold text-small"
+      [ngClass]="{ 'text-white': active == key + 1 }"
+      >
+        <span class="fs-5">{{ item.label }} </span>
+      </div>
+    </a>
+  </div>
+</div>

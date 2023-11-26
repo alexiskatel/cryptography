@@ -1,0 +1,67 @@
+<div class="">
+  <div class="d-flex justify-content-between mb-2">
+    <span class="fw-bold fs-5">Chiffrement de César</span>
+    <a routerLink="/decryptage-cesar" class="text-decoration-none">
+      <span
+        class="fw-bold text-primary alig-self-center pointer d-md-non fs-6"
+        >Décryptage</span
+      >
+    </a>
+  </div>
+  <div class="">
+    <div class="mb-3">
+      <label for="original">Texte original</label>
+      <textarea
+        name=""
+        id="original"
+        cols="30"
+        rows="5"
+        class="form-control"
+        [(ngModel)]="original"
+        placeholder="Quel message voulez-vous crypter ? 😃"
+      ></textarea>
+      <div class="d-flex justify-content-end mt-3">
+        <button
+          (click)="process()"
+          class="py-2 px-3 bg-primary text-white border-0 process fw-bold"
+        >
+          Procéder
+        </button>
+      </div>
+    </div>
+    <div
+      class="d-flex justify-content-center placeholder-none"
+      *ngIf="response == ''"
+    >
+      <span class="align-self-center"> Le message crypté apparaitra ici </span>
+    </div>
+    <div class="result" *ngIf="response !== ''">
+      <span (click)="copyToClipboard()">
+        <i
+          class="bi bi-clipboard2 text-dark fs-4 copy"
+          *ngIf="copySuccessMessage == ''"
+        ></i>
+        <span *ngIf="copySuccessMessage !== ''" class="copy">
+          {{ copySuccessMessage }}
+        </span>
+      </span>
+      <textarea
+        name=""
+        id="response"
+        cols="30"
+        rows="6"
+        class="form-control pt-4"
+        readonly
+        [value]="response"
+      ></textarea>
+    </div>
+    <div class="text-center">
+      <a routerLink="/decryptage-cesar" class="text-decoration-none">
+        <span
+          class="fw-bold text-primary alig-self-center pointer d-md-none fs-6"
+          >Passons au décryptage</span
+        >
+      </a>
+    </div>
+  </div>
+</div>
