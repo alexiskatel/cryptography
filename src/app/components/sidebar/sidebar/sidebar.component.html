@@ -1,8 +1,8 @@
-<div class="sidebar">
-  <img src="../../../../assets/images/bg-sidebar-desktop.svg" alt="" />
-  <div class="content p-4">
+<div class="sidebar px-md-0 px-1">
+  <!-- <img src="" alt="" /> -->
+  <div class="content py-4 px-lg-4 px-1 row">
     <a
-      class="d-flex pointer mb-md-3 text-decoration-none"
+      class="col-6 col-md-12 d-flex pointer mb-md-3 text-decoration-none mb-md-0 mb-2"
       [routerLink]="item.path"
       *ngFor="let item of links; let key = index"
       (click)="checkActiveTab(item.path)"
