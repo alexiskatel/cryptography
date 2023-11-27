@@ -72,6 +72,6 @@ export class PolybeService {
         }
       }
     }
-    return { row: -1, column: -1 };
+    return { row: 0, column: 0 };
   }
 }
