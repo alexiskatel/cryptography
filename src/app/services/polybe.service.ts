@@ -7,7 +7,7 @@ export class PolybeService {
   private polybeSquare!: string[][];
 
   constructor() {
-    this.setKey('POLYBE');
+    this.setKey('');
   }
 
   setKey(key: string): void {
