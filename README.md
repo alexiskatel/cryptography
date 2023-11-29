@@ -1,6 +1,6 @@
 # Projet de Cryptographie 
 
-Bienvenue sur le projet de cryptographie développé Alexis Katel AHOGLA. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
+Bienvenue sur le projet de cryptographie développé par Alexis Katel AHOGLA. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
 
 Il est actuellement hébergé et peut servir de test sur [https://cryptographe.netlify.app](https://cryptographe.netlify.app).
 
