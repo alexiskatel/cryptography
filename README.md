@@ -1,4 +1,4 @@
-# Projet de Cryptographie 
+# Système de Cryptographie 
 
 Bienvenue sur le projet de cryptographie développé par Alexis Katel AHOGLA. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
 
