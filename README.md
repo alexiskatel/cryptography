@@ -28,7 +28,7 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
 - [Node.js](https://nodejs.org/) (version 10.0.0 ou ultérieure)
 - [Angular CLI](https://angular.io/cli) (installé globalement)
 
-- Ensuite, executez dans l'ordre ces commandes :
+Ensuite, executez dans l'ordre ces commandes :
 
 ```bash
 $ git clone https://github.com/alexiskatel/cryptography.git
