@@ -1,4 +1,4 @@
-# Projet de Cryptographie avec par Alexis Katel
+# Projet de Cryptographie 
 
 Bienvenue sur le projet de cryptographie développé Alexis Katel AHOGLA. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
 
@@ -13,25 +13,29 @@ Il est actuellement hébergé sur [https://cryptographe.netlify.app](https://cry
     - [Polybe](#polybe)
     - [Affine](#affine)
 5. [Exemples](#exemples)
-6. [Contribuer](#contribuer)
-7. [Licence](#licence)
-8. [Contact](#contact)
+6. [Contact](#contact)
 
 ## Introduction<a name="introduction"></a>
 Ce projet vise à fournir une implémentation simple de trois algorithmes de chiffrement classique
 
 
-## Technologies utilisées<a name="technologies-utilisées"></a>
+## Technologies et language utilisés<a name="technologies-utilisées"></a>
 - Angular avec Typescript
 
 ## Installation<a name="installation"></a>
-    Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
+Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 - [Node.js](https://nodejs.org/) (version 10.0.0 ou ultérieure)
 - [Angular CLI](https://angular.io/cli) (installé globalement)
 
+Ensuite, executez dans l'ordre ces commandes :
+
 ```bash
 $ git clone https://github.com/alexiskatel/cryptography.git
+```
+
+```bash
+$ cd cryptography
 ```
 
 ```bash
@@ -41,7 +45,7 @@ $ npm install
 ```bash
 $ npm start
 ```
-Le projet sera accessible à l'adresse http://localhost:4200/.
+Le projet sera ensuite accessible dans votre navigateur à l'adresse http://localhost:4200/.
 
 
 
