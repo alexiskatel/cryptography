@@ -71,6 +71,8 @@ L'algorithme de chiffrement César consiste à décaler les lettres d'un certain
 
     C'est aussi simple que ça ! Vous pouvez expérimenter avec différentes entrées et observer comment l'algorithme César chiffre et déchiffre le texte.
 
+---
+
 ### Polybe<a name="polybe"></a>
 
 L'algorithme de chiffrement Polybe utilise une grille pour encoder et décoder les lettres.
@@ -92,6 +94,8 @@ L'algorithme de chiffrement Polybe utilise une grille pour encoder et décoder l
     En cliquant sur le bouton de décryptage de cette page, vous serez redirigé vers une page où le texte chiffré vous sera demandé. Saississez-le et obtenez votre texte original.
 
     N'hésitez pas à expérimenter avec différentes entrées et clés pour observer le chiffrement et le déchiffrement.
+
+---
 
 ### Affine<a name="affine"></a>
 
