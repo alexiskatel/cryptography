@@ -118,10 +118,13 @@ L'algorithme de chiffrement Affine combine deux fonctions linéaires pour chiffr
     En cliquant sur le bouton de décryptage de cette page, vous serez redirigé vers une page où le texte chiffré, le coefficient `a` et le décalage `b` vous seront demandé. Saississez-le et obtenez votre texte original.
 
 ## Exemples<a name="exemples"></a>
-...
 
+![Interface Utilisateur César](src/assets/images/cesar.png)
 
-...
+![Interface Utilisateur Polybe Cryptage](src/assets/images/polybecr.png)
+
+![Interface Utilisateur Polybe Deryptage](src/assets/images/polybede.png)
+
 
 ## Contact<a name="contact"></a>
 Si vous avez des questions, des commentaires ou des suggestions concernant ce projet de cryptographie, n'hésitez pas à me contacter.
