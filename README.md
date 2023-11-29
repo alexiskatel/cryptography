@@ -121,8 +121,8 @@ L'algorithme de chiffrement Affine combine deux fonctions linéaires pour chiffr
 
 ## Emplacement<a name="emplacement"></a>
 
-   Vous pouvez trouvez et modifiez le code du système de chiffrement des différentes méthodes dans le dossier `src/app/services`
-   
+   Vous pouvez trouver et modifier le code du système de chiffrement des différentes méthodes dans le dossier: `src/app/services`
+
 ## Exemples<a name="exemples"></a>
 
 ![Interface Utilisateur César](src/assets/images/cesar.png)
