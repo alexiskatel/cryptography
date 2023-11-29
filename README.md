@@ -23,7 +23,7 @@ Ce projet vise à fournir une implémentation simple de trois algorithmes de chi
 - Angular avec Typescript
 
 ## Installation<a name="installation"></a>
-    Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
+Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
 
 - [Node.js](https://nodejs.org/) (version 10.0.0 ou ultérieure)
 - [Angular CLI](https://angular.io/cli) (installé globalement)
