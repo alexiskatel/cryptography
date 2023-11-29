@@ -12,8 +12,9 @@ Il est actuellement hébergé et peut servir de test sur [https://cryptographe.n
     - [César](#cesar)
     - [Polybe](#polybe)
     - [Affine](#affine)
-5. [Exemples](#exemples)
-6. [Contact](#contact)
+5. [Emplacement](#emplacement)
+6. [Exemples](#exemples)
+7. [Contact](#contact)
 
 ## Introduction<a name="introduction"></a>
 Ce projet vise à fournir une implémentation simple de trois algorithmes de chiffrement classique
@@ -118,6 +119,10 @@ L'algorithme de chiffrement Affine combine deux fonctions linéaires pour chiffr
 
     En cliquant sur le bouton de décryptage de cette page, vous serez redirigé vers une page où le texte chiffré, le coefficient `a` et le décalage `b` vous seront demandé. Saississez-le et obtenez votre texte original.
 
+## Emplacement<a name="emplacement"></a>
+
+   Vous pouvez trouvez et modifiez le code du système de chiffrement des différentes méthodes dans le dossier `src/app/services`
+   
 ## Exemples<a name="exemples"></a>
 
 ![Interface Utilisateur César](src/assets/images/cesar.png)
