@@ -1,27 +1,50 @@
-# Cryptography
+# Projet de Cryptographie avec Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+Bienvenue sur le projet de cryptographie développé avec Angular. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
 
-## Development server
+## Table des matières
+1. [Introduction](#introduction)
+2. [Technologies utilisées](#technologies-utilisées)
+3. [Installation](#installation)
+4. [Utilisation](#utilisation)
+    - [César](#cesar)
+    - [Polybe](#polybe)
+    - [Affine](#affine)
+5. [Exemples](#exemples)
+6. [Contribuer](#contribuer)
+7. [Licence](#licence)
+8. [Contact](#contact)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction<a name="introduction"></a>
+Ce projet vise à fournir une implémentation simple de trois algorithmes de chiffrement en utilisant le framework Angular.
 
-## Code scaffolding
+Le projet est actuellement hébergé sur [cryptographe.netlify.app](https://cryptographe.netlify.app).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies utilisées<a name="technologies-utilisées"></a>
+- Angular
 
-## Build
+## Installation<a name="installation"></a>
+...
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Utilisation<a name="utilisation"></a>
 
-## Running unit tests
+### César<a name="cesar"></a>
+...
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Polybe<a name="polybe"></a>
+...
 
-## Running end-to-end tests
+### Affine<a name="affine"></a>
+...
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Exemples<a name="exemples"></a>
+...
 
-## Further help
+## Contribuer<a name="contribuer"></a>
+...
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licence<a name="licence"></a>
+...
+
+## Contact<a name="contact"></a>
+...
