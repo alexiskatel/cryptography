@@ -66,10 +66,10 @@ L'algorithme de chiffrement César consiste à décaler les lettres d'un certain
 
 3. **Décrypter le Texte Chiffré**
 
-Si vous souhaitez décrypter le texte chiffré, utilisez le bouton de décryptage et vous serez redirigé vers une page où le texte chiffré vous sera demandé.
-Entrez le et obtenez votre texte original.
+    Si vous souhaitez décrypter le texte chiffré, utilisez le bouton de décryptage et vous serez redirigé vers une page où le texte chiffré vous sera demandé.
+    Entrez le et obtenez votre texte original.
 
-C'est aussi simple que ça ! Vous pouvez expérimenter avec différentes entrées et observer comment l'algorithme César chiffre et déchiffre le texte.
+    C'est aussi simple que ça ! Vous pouvez expérimenter avec différentes entrées et observer comment l'algorithme César chiffre et déchiffre le texte.
 
 ### Polybe<a name="polybe"></a>
 
