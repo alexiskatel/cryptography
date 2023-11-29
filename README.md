@@ -1,10 +1,12 @@
-# Projet de Cryptographie avec Angular
+# Projet de Cryptographie avec par Alexis Katel
 
-Bienvenue sur le projet de cryptographie développé avec Angular. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
+Bienvenue sur le projet de cryptographie développé Alexis Katel AHOGLA. Ce projet propose trois méthodes de chiffrement : César, Polybe et Affine.
+
+Il est actuellement hébergé sur [https://cryptographe.netlify.app](https://cryptographe.netlify.app).
 
 ## Table des matières
 1. [Introduction](#introduction)
-2. [Technologies utilisées](#technologies-utilisées)
+2. [Technologie et language de programation utilisés](#technologies-utilisées)
 3. [Installation](#installation)
 4. [Utilisation](#utilisation)
     - [César](#cesar)
@@ -16,15 +18,32 @@ Bienvenue sur le projet de cryptographie développé avec Angular. Ce projet pro
 8. [Contact](#contact)
 
 ## Introduction<a name="introduction"></a>
-Ce projet vise à fournir une implémentation simple de trois algorithmes de chiffrement en utilisant le framework Angular.
+Ce projet vise à fournir une implémentation simple de trois algorithmes de chiffrement classique
 
-Le projet est actuellement hébergé sur [cryptographe.netlify.app](https://cryptographe.netlify.app).
 
 ## Technologies utilisées<a name="technologies-utilisées"></a>
-- Angular
+- Angular avec Typescript
 
 ## Installation<a name="installation"></a>
-...
+    Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votre machine :
+
+- [Node.js](https://nodejs.org/) (version 10.0.0 ou ultérieure)
+- [Angular CLI](https://angular.io/cli) (installé globalement)
+
+```bash
+$ git clone https://github.com/alexiskatel/cryptography.git
+```
+
+```bash
+$ npm install
+```
+
+```bash
+$ npm start
+```
+Le projet sera accessible à l'adresse http://localhost:4200/.
+
+
 
 ## Utilisation<a name="utilisation"></a>
 
